@@ -5,4 +5,5 @@
 #define SYSPROGS_ARDUINO_EXPAND_GENERATED_PROTOTYPES \
 	void setup(); \
 	void loop(); \
+	uint8_t connect_to_smtp_server(monitor_t mon); \
 
